@@ -21,9 +21,8 @@ function Contact(props) {
   );
 }
 Contact.propTypes = {
-  characterLastName: PropTypes.string.isRequired,
   avatar: PropTypes.string.isRequired,
-  namel: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
   online: PropTypes.bool.isRequired,
   text: PropTypes.bool.isRequired,
 };
